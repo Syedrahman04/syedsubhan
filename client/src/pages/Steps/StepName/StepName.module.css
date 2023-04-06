@@ -1,0 +1,11 @@
+.paragraph {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+@media (max-width: 440px) {
+    .paragraph{
+        margin: 10px auto;
+    }
+}

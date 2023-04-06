@@ -1,0 +1,13 @@
+.inputWrap input{
+    text-align: center !important;
+}
+.bottomParagraph {
+    composes: bottomParagraph from '../StepPhoneEmail/StepPhoneEmail.module.css';
+    margin-top: 10px;
+    text-align: center;
+}
+
+.actionButtonWrap {
+    composes: actionButtonWrap from '../StepPhoneEmail/StepPhoneEmail.module.css';
+    margin-top: 10px;
+}
